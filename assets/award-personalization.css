@@ -1,0 +1,14 @@
+.framer-cWMmA .framer-o8c0co .framer-bde40b { max-width:none; min-width:0; }
+.framer-cWMmA .framer-o8c0co .framer-e5kqjs { min-width:0; }
+.framer-cWMmA .framer-o8c0co .framer-182fq0f h3 {
+  font-family:Inter,'Microsoft YaHei','PingFang SC',sans-serif;
+  font-size:clamp(24px,2.3vw,32px);
+  letter-spacing:0;
+  line-height:1.4;
+  overflow-wrap:anywhere;
+}
+.framer-cWMmA .framer-o8c0co .framer-sxjfvm p { letter-spacing:0; line-height:1.6; }
+@media(max-width:767px) {
+  .framer-cWMmA .framer-o8c0co .framer-bde40b { gap:12px; }
+  .framer-cWMmA .framer-o8c0co .framer-182fq0f h3 { font-size:20px; line-height:1.5; }
+}

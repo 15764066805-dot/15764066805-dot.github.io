@@ -1,0 +1,53 @@
+@import url('/assets/nuance-fonts.css');
+.framer-cWMmA .framer-a9joug.nuance-tools-section {padding:90px 30px;width:100%;height:auto;display:flex;justify-content:center;overflow:hidden;position:relative;scroll-margin-top:30px;background:#121414;}
+.nuance-tools-section::after {content:'';position:absolute;inset:0;background:url('/assets/nuance-grain.svg') repeat;opacity:.12;pointer-events:none;}
+.nuance-tools {width:100%;max-width:1200px;min-width:0;position:relative;z-index:1;}
+.nuance-tools * {box-sizing:border-box;}
+.nuance-tools-heading {margin:0 0 64px;}
+.nuance-tools .nuance-tools-eyebrow {margin:0 0 12px;font-family:'Nuance Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:2px;line-height:1.2;color:#909191;}
+.nuance-tools-heading-row {display:flex;align-items:center;gap:10px;min-width:0;}
+.nuance-tools h2 {flex:none;margin:0;width:480px;color:#fff;font-family:Inter,sans-serif;font-weight:500;font-size:clamp(32px,3.75vw,52px);line-height:1.1;letter-spacing:-.055em;font-feature-settings:'blwf' on,'cv03' on,'cv04' on,'cv09' on,'cv11' on;}
+.nuance-tools-marquee {flex:1;min-width:0;overflow:hidden;opacity:.75;mask-image:linear-gradient(90deg,transparent,#000 16%,#000 84%,#0000001a);}
+.nuance-tools-track {display:flex;width:max-content;animation:nuance-tools-scroll 32s linear infinite;}
+.nuance-tools-group {display:flex;gap:38px;padding-right:38px;flex:none;align-items:center;}
+.nuance-tools-group img {display:block;width:90px;height:90px;border-radius:8px;flex:none;}
+.nuance-tools-marquee:hover .nuance-tools-track {animation-play-state:paused;}
+.nuance-tools-cards {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}
+.nuance-tools-card {position:relative;isolation:isolate;min-height:287px;background:#262626;border:1px solid #1a1b1b;border-radius:16px;overflow:hidden;padding:24px;outline:none;transition:background .3s,border-color .3s;}
+.nuance-tools-card::before {content:'';position:absolute;inset:-1px;border-radius:16px;z-index:-1;background:linear-gradient(155deg,#ff8d4a,#b2ada1 52%,#f4bf00);opacity:0;transition:opacity .35s;}
+.nuance-tools-card::after {content:'';position:absolute;inset:1px;border-radius:14px;background:#262626;z-index:-1;}
+.nuance-tools-card:hover::before,.nuance-tools-card:focus-visible::before {opacity:1;}
+.nuance-tools-icon {display:block;width:64px;height:64px;border-radius:12px;margin:0 0 16px;}
+.nuance-tools h3 {margin:0 0 8px;color:#dedede;font-family:'Nuance Merriweather',Georgia,serif;font-size:20px;font-weight:500;line-height:1.4;letter-spacing:0;}
+.nuance-tools-card p {margin:0;color:#909191;font-family:'Nuance Sans',sans-serif;font-size:14px;font-weight:400;line-height:1.5;letter-spacing:0;}
+@keyframes nuance-tools-scroll {to {transform:translateX(-33.333333%);}}
+@keyframes nuance-tools-reveal {from {opacity:0;transform:translateY(30px);filter:blur(5px);}to {opacity:1;transform:translateY(0);filter:blur(0);}}
+@media(prefers-reduced-motion:no-preference) {
+  .nuance-tools:not(.nuance-tools-visible) .nuance-tools-heading,.nuance-tools:not(.nuance-tools-visible) .nuance-tools-card {opacity:0;}
+  .nuance-tools-visible .nuance-tools-heading {animation:nuance-tools-reveal .8s both;}
+  .nuance-tools-visible .nuance-tools-card {animation:nuance-tools-reveal .65s both;animation-delay:calc(.12s + var(--nuance-order)*.12s);}
+}
+@media(max-width:1199px) and (min-width:768px) {
+  .nuance-tools h2 {width:380px;font-size:36px;}
+  .nuance-tools-card {padding:20px;}
+  .nuance-tools-cards {gap:18px;}
+}
+@media(max-width:767px) {
+  .framer-cWMmA .framer-a9joug.nuance-tools-section {padding:56px 20px;}
+  .nuance-tools-heading {margin-bottom:32px;}
+  .nuance-tools-heading-row {flex-direction:column;align-items:flex-start;gap:24px;}
+  .nuance-tools h2 {width:100%;font-size:clamp(28px,7.7vw,38px);}
+  .nuance-tools-marquee {width:100%;flex:auto;}
+  .nuance-tools-group {gap:24px;padding-right:24px;}
+  .nuance-tools-group img {width:72px;height:72px;}
+  .nuance-tools-cards {grid-template-columns:1fr;gap:16px;}
+  .nuance-tools-card {min-height:240px;}
+}
+@media(prefers-reduced-motion:reduce) {.nuance-tools-track {animation:none;} .nuance-tools-card,.nuance-tools-card::before {transition:none;}}
+
+/* Keep the image, shading, and text inside the same rounded project card. */
+.framer-cWMmA .framer-dDde7 {border-radius:16px;overflow:hidden;}
+.framer-cWMmA .framer-dDde7 .framer-1o5pykz {border-radius:16px;overflow:hidden;}
+.framer-cWMmA .framer-dDde7 .framer-g6ea6t {border-radius:16px;}
+
+.nuance-tools-group img,.nuance-tools-icon {object-fit:contain;}

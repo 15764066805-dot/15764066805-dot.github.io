@@ -1,0 +1,50 @@
+:root {
+  --portfolio-azure:#087bff;
+  --portfolio-electric:#0764e8;
+  --portfolio-ice:#edf8ff;
+  --portfolio-paper:#fff;
+  --portfolio-ink:#101820;
+  --portfolio-muted:#4b6070;
+  --portfolio-line:#d5e4ef;
+}
+html,body {background:var(--portfolio-paper)!important;color:var(--portfolio-ink);}
+#main {--token-05b6245e-00ef-4381-98dd-b133603f5206:#fff;--token-a083bc10-437d-4bd6-b6e3-e3217ffa2ffd:#edf8ff;--token-ea2b24cc-11a3-4cc3-8bbb-ba3c8215c20d:#0764e8;}
+#main > [data-layout-template],#main > div:not([data-framer-html-style]),.framer-cWMmA {background-color:var(--portfolio-paper)!important;}
+#main .framer-text {--framer-text-color:var(--portfolio-ink)!important;--framer-link-text-color:#075fce!important;color:var(--portfolio-ink)!important;}
+#main .framer-text span {color:inherit!important;}
+#main [data-border=true] {--border-color:var(--portfolio-line)!important;}
+.framer-cWMmA > section,.framer-CmY6J > footer {background-color:var(--portfolio-paper)!important;}
+.framer-cWMmA .framer-105fjnj {background:linear-gradient(180deg,#0764e8 0%,#087bff 22%,#64b5ff 52%,#c6e6ff 78%,#edf8ff 100%)!important;}
+.framer-cWMmA .framer-105fjnj section {background:transparent!important;}
+.framer-cWMmA .framer-105fjnj [data-framer-name='Bg Image'] {opacity:.06!important;filter:grayscale(1);mix-blend-mode:soft-light;}
+.framer-cWMmA .framer-1kxnikr {background-color:var(--portfolio-ice)!important;}
+#main .framer-cWMmA .framer-105fjnj .framer-text {color:var(--hero-adaptive-ink,var(--portfolio-ink))!important;--framer-text-color:var(--hero-adaptive-ink,var(--portfolio-ink))!important;}
+#main header .framer-text {color:var(--nav-adaptive-ink,var(--portfolio-ink))!important;--framer-text-color:var(--nav-adaptive-ink,var(--portfolio-ink))!important;}
+#main header [data-framer-name='Button'] a {background:var(--portfolio-electric)!important;border-color:var(--portfolio-electric)!important;}
+#main header [data-framer-name='Button'] .framer-text {color:#fff!important;}
+#main header [data-framer-name='Icon'] {background:var(--portfolio-electric)!important;}
+#main .framer-dDde7 .framer-text {color:#fff!important;--framer-text-color:#fff!important;}
+.framer-cWMmA .nuance-tools-section {background:#f4faff!important;}
+.nuance-tools h2,.nuance-tools h3,.projects-exact-title,.insights-showcase-heading h2 {color:var(--portfolio-ink);}
+.nuance-tools .nuance-tools-eyebrow,.nuance-tools-card p {color:var(--portfolio-muted);}
+.nuance-tools-card {background:#fff;border-color:var(--portfolio-line);}
+.nuance-tools-card::after {background:#fff;}
+.nuance-tools-card::before {background:linear-gradient(155deg,#087bff,#8fceff 52%,#d5eeff);}
+.nuance-tools-section::after {opacity:.035;}
+.insights-showcase {color:var(--portfolio-ink);}
+.insights-showcase-card {border-color:var(--portfolio-line);}
+.insights-showcase-card:focus-visible,.insights-showcase-card:hover {border-color:var(--portfolio-azure);box-shadow:0 8px 30px #087bff26;}
+.projects-exact-section {background:var(--portfolio-paper)!important;}
+.drift-wall {--dw-overlay:#d7edff!important;}
+.drift-wall__inner {background:#e8f4ff;}
+.framer-cWMmA .framer-o8c0co {background:#fff!important;}
+.framer-cWMmA .framer-o8c0co .framer-bde40b > div:first-child .framer-text {color:#7898b1!important;}
+.framer-cWMmA .framer-e476m3 {background:var(--portfolio-ice)!important;}
+#main footer,#main footer [data-framer-name='Desktop'],#main footer [data-framer-name='Tablet'],#main footer [data-framer-name='Phone'] {background:#fff!important;}
+#main footer img[alt='Logo'] {filter:brightness(0);}
+#main footer svg {color:var(--portfolio-ink);}
+#main a:focus-visible {outline-color:var(--portfolio-azure);}
+#main .framer-form-input,#main select,#main textarea {background:#edf8ff!important;color:var(--portfolio-ink)!important;border-color:var(--portfolio-line)!important;}
+#main .framer-form-input::placeholder,#main textarea::placeholder {color:#4b6070!important;opacity:1;}
+#main form button[type=submit] {background:var(--portfolio-electric)!important;color:#fff!important;}
+#main form button[type=submit] .framer-text {color:#fff!important;}
